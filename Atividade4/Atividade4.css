@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navegador-superior{
+    background-color: green;
+    overflow: hidden;
+}
+.navegador-superior ul{
+    list-style-type: none;
+}
+.navegador-superior ul li{
+    display: block;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    background-color:green;
+    overflow: hidden;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.navegador-superior ul li div ul li a:hover, .dropdown1 .button1:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.dropdown1{
+    float: left;
+}
+.dropdown1 .button1{
+    padding: 5px;
+}
+.dropdown1 .link1{
+    position: absolute;
+    background-color: white;
+    display: none;
+}
+.dropdown1:hover .link1{
+    display: block;
+}
+.dropdown1:hover .button1{
+    background-color: white;
+    color: black;
+}
+.navegador-superior ul li div ul li a{
+    background-color: white;
+}
+
+.dropdown2{
+    float: left;
+}
+.dropdown2 .button2{
+    padding: 5px;
+}
+.dropdown2 .link2{
+    position: absolute;
+    background-color: white;
+    display: none;
+}
+.dropdown2:hover .link2{
+    display: block;
+}
+.dropdown2:hover .button2{
+    background-color: white;
+    color: black;
+}
+
+.dropdown3{
+    float: left;
+}
+.dropdown3 .button3{
+    padding: 5px;
+}
+.dropdown3 .link3{
+    position: absolute;
+    background-color: white;
+    display: none;
+}
+.dropdown3:hover .link3{
+    display: block;
+}
+.dropdown3:hover .button3{
+    background-color: white;
+    color: black;
+}
+
+
+h2 a{
+    float: left;
+    display: block;
+}
+.p{
+    float: right;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navegador-lateral{
+    padding: 10px;
+    margin-left: 5px;
+    overflow: hidden;
+
+}
+.aprenda{
+    height: 100px;
+    margin-left: 5px;
+    padding: 5px;
+    width: 20%;
+    float: left;
+}
+.aprenda div ul{
+    list-style-type: none;
+}
+.aprenda div ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
+}
+.aprenda div ul li a:hover{
+    background-color: gray;
+}
+.corpo{
+    background-color: white;
+    width: 70%
+}
