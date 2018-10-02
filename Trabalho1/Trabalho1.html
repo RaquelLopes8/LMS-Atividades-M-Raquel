@@ -11,10 +11,15 @@
             margin: 0;
             padding: 0;
         }
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
 
         .nav{
             background-color: blueviolet;
             overflow: hidden;
+            box-shadow: -3px 5px 3px #666666;
         }
         .nav ul{
             list-style-type: none;
@@ -46,7 +51,6 @@
             max-height: 0px;    
         }
         .drop:hover .link .menu{
-            /*display: block;*/
             max-height: 400px;
             transform: translateY(0em);
             transition-duration: 5s;
@@ -58,15 +62,29 @@
             background-color: brown;
             color: black;
         }
-
         .nav-esquerdo{
             float: left;
             display: block;
             text-align: center;
+            box-shadow: 1px 20px 10px #666666;
+            width: 10%;
+            height: 85vh;
+            background-color: purple;
+            overflow: hidden;
+        }
+        .nav-esquerdo ul{
+            list-style-type: none;
+        }
+        .nav-esquerdo ul li a{
+            overflow: hidden;
+            text-decoration: none;
             color: white;
-            margin: 0px;
-            padding: 100px;
-            background-color: black;
+            padding: 5px;
+            display: block;
+        }
+        .nav-esquerdo ul li a:hover{
+            background-color: blue;
+            cursor: pointer;
         }
         .nav-direito{
             float: right;
@@ -74,10 +92,14 @@
             text-align: center;
             color: white;
             box-shadow: 20px 20px 20px #666666;
-            margin: 0px;
-            padding: 100px;
-            background-color: black;
-            background: linear-gradient(to bottom, black, yellow);
+            width: 10%;
+            height: 85vh;
+            background: linear-gradient(to bottom, red, violet);
+        }
+        .cont{
+            display: block;
+            float: left;
+            width: 80%;
         }
         img{
             padding: 5px;
@@ -88,49 +110,50 @@
         
         @keyframes ovelha{
             0%{
-                transform: translate(0, 200px) skew(0deg,10deg);
+                transform: translate(0, 10px) rotate(0deg,10deg);
             }
 
             20%{
-                transform: translate(200px, 0) skew(20deg, 40deg);
+                transform: translate(10px, 50px) rotate(20deg, 40deg);
             }
 
             40%{
-                transform: translate(300px, 200px) rotate(50deg);
+                transform: translate(50px, 100px) rotate(50deg, 60deg);
             }
 
             60%{
-                transform: translate(10, 200px) rotate(100deg);
+                transform: translate(100px, 200px) rotate(100deg);
             }
 
             80%{
-                transform: translate(100px, 200px) rotate(160deg);
+                transform: translate(200px, 300px) rotate(160deg);
             }
 
             100%{
-                transform: translate(50, 200px) rotate(210deg);
+                transform: translate(300, 400px) rotate(210deg);
             } 
         }
 
         @media screen and(min-width: 600px){
-            .cont{
-                float: left;
-            }
-            
-            .nav-direito{
-                float: right;
-                width: 200px;
-            }
-            .nav-esquerdo{
-                float: left;
-                width: 200px;
-            }
-            
-            
+               .nav-esquerdo{
+                   float: left;
+                   display: block;
+               }
+               .nav-direito{
+                   float: left;
+                   display: block;
+               }
+               .cont{
+                   float: left;
+               }
         }
+        
     </style>
 </head>
 <body>
+    <header>
+        <h1>Titulo</h1>
+    </header>
     <header>
         <nav class="nav">
             <ul>
