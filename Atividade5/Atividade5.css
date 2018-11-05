@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: rgba(133, 6, 95, 0.63);
+}
+
+.menu .menu-lateral{
+    background-color: violet;
+    overflow: hidden;
+    float: left;
+    height: 100vh;
+    width: 25%;
+}
+.menu-lateral ul{
+    list-style-type: none;
+}
+.menu-lateral ul li a{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.menu-lateral ul li a:hover{
+    background-color: white;
+}
+
+.cont{
+    float: left;
+    width: 75%;
+    height: 2000px;
+}
+
+.acordeon .titulo{
+    background-color: pink;
+    font-size: 20px;
+    padding: 10px;
+}
+.acordeon .cont-acordeon{
+    background-color: white;
+    max-height: 0px;
+    overflow: hidden;
+    transition: 1s;
+}
+.acordeon:hover .cont-acordeon{
+    max-height: 350px;
+}
+.acordeon .cont-acordeon img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+.sandubs{
+    background: url("./imag/sandubs.png") no-repeat #0971B2;
+    transform: scale(30px, 30px);
+    width: 50px;
+    height: 40px;
+    display: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 480px){
+   
+
+}
+@media screen and (max-width: 480px){
+    .sandubs{
+        display: block;
+    }
+
+    .menu{
+        transform: translate(-200vw,0);
+    }
+}
