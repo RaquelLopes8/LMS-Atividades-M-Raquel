@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "email": "dasdas",
+      "username": "dsadas",
+      "password": "dasdas",
+      "id": 1
+    },
+    {
+      "email": "joammega",
+      "username": "joammega",
+      "password": "joammega",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "teste": []
+}

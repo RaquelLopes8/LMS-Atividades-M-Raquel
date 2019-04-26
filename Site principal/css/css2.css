@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2, h3, p{
+  font-weight: lighter;
+}
+.conteiner .header {
+  background-image: url("../imgs/Prancheta\ 1\ cópia\ 3.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.conteiner .header .logo {
+  overflow: hidden;
+}
+.conteiner .header .logo a {
+  float: left;
+  padding: 8px;
+}
+.conteiner .header .texto {
+  color: white;
+  margin: auto;
+  margin-top: 75px;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 26px;
+  width: 60%;
+}
+.conteiner .header .texto p{
+  font-size: 22px;
+  padding: 10px;
+}
+.conteiner .header .footer {
+  background-image: url("../imgs/Prancheta\ 10.png");
+  background-position: bottom;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  height: 200px;
+  transform: translate(0, 2px);
+}
+.conteiner .conteudo {
+  position: relative;
+}
+.conteiner .conteudo .quadro {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 75px;
+}
+.conteiner .conteudo .quadro .quest {
+  display: inline-block;
+  margin: 25px 60px 25px 60px;
+  width: 300px;
+  height: 300px;
+  user-select: none;
+}
+.conteiner .conteudo .quadro .quest .borda {
+  background-color: rgb(245, 172, 142);
+  height: 10px;
+  border-radius: 25px 25px 0 0;
+}
+.conteiner .conteudo .quadro .quest .caixa {
+  border: solid gray 1px;
+  height: 100%;
+}
+.conteiner .conteudo .quadro .quest .caixa h3 {
+  color: gray;
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+  padding-top: 3px;
+}
+.conteiner .conteudo .quadro .quest .caixa p {
+  text-align: justify;
+  padding: 15px;
+  padding-top: 3px;
+  height: 100px;
+}
+.conteiner .conteudo .quadro .quest .caixa ul {
+  text-align: left;
+  padding: 12px;
+  padding-top: 3px;
+  list-style: none;
+}
+.conteiner .conteudo .quadro .quest .caixa ul li {
+  cursor: pointer;
+  padding: 3px;
+  font-size: 14px;
+}
+.conteiner .conteudo .quadro .quest .caixa ul li:hover {
+  background-color: rgb(245, 172, 142);
+  color: white;
+  border-radius: 25px;
+}
+.conteiner .conteudo .quadro .quest .caixa ul .marcado {
+  background-color: rgb(245, 172, 142);
+  color: white;
+  border-radius: 25px;
+}
+.conteiner .conteudo .quadro .button button {
+  color: rgb(245, 172, 142);
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid rgb(245, 172, 142);
+  margin-top: 50px;
+  padding: 8px 15px;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+}
+.conteiner .conteudo .quadro .button button:hover {
+  background-color: rgb(245, 172, 142);
+  color: white;
+}
+.conteiner .conteudo .card {
+  width: 60%;
+  margin: auto;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+  overflow: hidden;
+  text-align: center;
+  transform: translate(0, -50%);
+}
+.conteiner .conteudo .card img {
+  float: left;
+  width: 40%;
+  padding: 5%;
+  box-sizing: border-box;
+}
+.conteiner .conteudo .card .resposta {
+  float: left;
+  width: 50%;
+}
+.conteiner .conteudo .card .resposta h4 {
+  padding: 50px 10px 25px;
+  font-size: 26px;
+}
+.conteiner .conteudo .card .resposta .button {
+  margin-top: 40px;
+}
+.conteiner .conteudo .card .resposta .button a,
+.conteiner .conteudo .card .resposta .button button {
+  text-decoration: none;
+  color: rgb(245, 172, 142);
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid rgb(245, 172, 142);
+
+  padding: 8px 15px;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  margin-top: 10px;
+}
+/* .conteiner .conteudo .card .resposta .button button a {
+  text-decoration: none;
+  color: rgb(245, 172, 142);
+  display: block;
+}
+.conteiner .conteudo .card .resposta .button button a:hover {
+  color: white;
+} */
+.conteiner .conteudo .card .resposta .button a:hover,
+.conteiner .conteudo .card .resposta .button button:hover {
+  background-color: rgb(245, 172, 142);
+  color: white;
+}
+.foooter {
+  height: 80px;
+  background-color: rgb(245, 172, 142);
+}

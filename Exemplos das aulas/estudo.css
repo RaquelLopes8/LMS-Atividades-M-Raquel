@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner1{
+    overflow: hidden;
+}
+.d1{
+    float: left;
+    background-color: palevioletred;
+    width: 30vw;
+    height: 60px;
+    position: relative;
+}
+.d1 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.d2{
+    float: left;
+    background-color: purple;
+    width: 70vw;
+    height: 60px;
+}
+.conteiner1 .d2 ul{
+    list-style-type: none;
+}
+.conteiner1 .d2 ul li{
+    padding: 10px;
+    float: right;
+}
+.conteiner1 .d2 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.conteiner1 .d2 ul li a:hover{
+    background: rosybrown;
+}
+
+.conteiner{
+    width: 100vw;
+    overflow: hidden;
+}
+
+.conteiner .lateral{
+    width: 30%;
+    height: 500px;
+    background-color: violet;
+    float: left;
+}
+.conteiner .lateral ul{
+    list-style-type: none;
+    text-align: center;
+}
+.conteiner .lateral ul li{
+    padding: 10px;
+    
+}
+.conteiner .lateral ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.conteiner .lateral ul li a:hover{
+    background-color: white;
+}
+.conteiner .cont{
+    width: 70%;
+    height: 400px;
+    background-color: rebeccapurple;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.conteiner .cont h2{
+    color: pink;
+    text-align: center;
+}
+.conteiner .cont p{
+    text-align: justify;
+    margin: 20px;
+}

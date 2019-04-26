@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    height: 100vh;
+    text-align: center;
+}
+.conteiner .post{
+    display: inline-block;
+    background-color: chocolate;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.conteiner .post p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}

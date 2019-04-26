@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prova1</title>
+    
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .nav{
+            display: block;
+            background-color: gray;
+            width: 25%;
+            height: 400px;
+            float: left;
+        }
+        .nav .lateral .link li{
+            overflow: hidden;
+        }
+        .nav .lateral .link li a{
+            text-decoration: none;
+            padding: 10px;
+            margin: 20px;
+        }
+        .nav .lateral .link li a:hover{
+            background-color: blueviolet;
+            cursor: pointer;
+        }
+        .cont{
+            display: block;
+            background-color: white;
+            width: 75%;
+            height: 400px;
+        }
+        .cont ul li .titulo{
+            background-color: gray;
+            text-decoration-style: none;
+        }
+        .cont ul li .titulo:hover{
+            background-color: blueviolet;
+            cursor: pointer;
+        }
+        .cont .corpo .drop{
+            width: 150px;
+            height: 150px;
+            float: left; 
+        }
+        .cont .corpo .drop .img{
+            width: 150px;
+            height: 150px;
+        }
+        .cont .corpo .drop .text{
+            background-color: wheat;
+            float: right;
+        }
+        
+        .corpo .drop{  
+            display: none;   
+            background-color:white;
+            /*max-height: 0px;*/
+        }
+
+        .titulo:hover .corpo .drop{
+            display: block;
+            /*max-height: 350px;*/
+            transform: translateY(0em);
+            transition-duration: 2s;
+        }
+        @media screen and(min-width: 478px){
+
+        }
+        
+    </style>
+
+</head>
+<body>
+    <nav class="nav">
+        <div class="lateral">
+            <ul class="link">
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">JS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav>
+        <div class="cont">
+            <ul>
+                <li>
+                    <div class="titulo">Conteudo 1</div>
+                    <div class="corpo">
+                        <ul class="drop">
+                            <li><img class="img" src="imd.jpg" alt="meme"></li> 
+                            
+                            <li><p class="text">
+                                Text text 
+                                Text text 
+                                Text text 
+                                Text text 
+                            </p></li>
+                        </ul>
+                            
+                    </div>
+                   
+                </li>
+
+                <li>
+                    <div class="titulo">Conteudo 2</div>
+                    <div class="corpo">
+                        <ul class="drop">
+                            <li><img class="img" src="imd.jpg" alt="meme"></li>
+                            
+                            <li><p class="text">Text text 
+                                    Text text 
+                                    Text text 
+                                    Text text 
+                            </p></li>
+                        </ul>
+                            
+                    </div>
+                       
+                </li>
+
+                <li>
+                    <div class="titulo">Conteudo 3</div>
+                    <div class="corpo">
+                        <ul class="drop">
+                            <li><img class="img" src="imd.jpg" alt="meme"></li>
+                            
+                            <li><p class="text">Text text 
+                                    Text text 
+                                    Text text 
+                                    Text text 
+                            </p></li>
+                        </ul>
+                            
+                    </div>
+                       
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</body>
+</html>

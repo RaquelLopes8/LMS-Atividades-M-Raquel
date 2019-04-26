@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    overflow: hidden;
+    width: 100vw;
+}
+.d1{
+    position: relative;
+    width: 25%;
+    height:50px;
+    float: left;
+    background-color: #311B92;
+}
+.d1 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.d2{
+    width: 75%;
+    height: 50px;
+    float: left;
+    background-color: #1976D2;
+}
+.d2 ul{
+    list-style-type: none;
+}
+
+.conteiner{
+    background-color: #3498DB;
+    width: 25%;
+}
+.conteiner ul li .drop .menu{
+    padding: 5px;
+}
+.conteiner ul li .drop .link{
+    overflow: hidden;
+}
+
+.conteiner ul li .drop .link ul{
+    list-style-type: none;
+    position: absolute;
+    overflow: hidden;
+    max-height: 0px;
+}
+.conteiner ul li .drop:hover .link ul{
+    max-height: 400px;
+    background-color: pink;
+}
+.conteiner .drop .link ul li{
+    padding: 10px;
+}
+.conteiner .drop .link ul li a{
+    text-decoration: none;
+    color: black;
+}

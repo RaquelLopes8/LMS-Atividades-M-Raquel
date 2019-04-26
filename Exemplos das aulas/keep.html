@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="keep.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="form">
+        <form action="" method="get"></form>
+        <button>Enviar</button>
+    </div>
+
+    <div class="conteiner">
+        <div class="post">
+            <p>alguma coisa</p>
+        </div>
+
+        <div class="post">
+            <p>alguma coisa</p>
+        </div>
+
+        <div class="post">
+            <p>alguma coisa</p>
+        </div>
+
+        <div class="post">
+            <p>alguma coisa</p>
+        </div>
+    </div>
+    <script>
+        function criarpost(p){
+            let post = $("<div></div>").text("");
+            let pp = $("<p></p>").text("p");
+
+            post.classlist.add("post");
+            pp.classlist.add("p");
+    
+            post.appendchild(pp);
+            $(".conteiner").appendchild(post);
+        }
+
+        criarpost("Coisa loca");
+    </script>
+</body>
+</html>

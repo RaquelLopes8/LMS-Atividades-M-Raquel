@@ -32,18 +32,18 @@ header{
     height: 2000px;
 }
 
-.acordeon .titulo{
+.acordeon .titulo h3{
     background-color: pink;
     font-size: 20px;
     padding: 10px;
 }
-.acordeon .cont-acordeon{
+.acordeon .titulo img{
     background-color: white;
     max-height: 0px;
     overflow: hidden;
     transition: 1s;
 }
-.acordeon:hover .cont-acordeon{
+.acordeon:hover .titulo img{
     max-height: 350px;
 }
 .acordeon .cont-acordeon img{

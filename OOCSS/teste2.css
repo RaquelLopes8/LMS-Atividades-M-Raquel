@@ -1,0 +1,19 @@
+article p, footer p{
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+footer p{
+    font-size: 40px;
+}
+
+/*article p{
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+footer p{
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 40px;
+}*/

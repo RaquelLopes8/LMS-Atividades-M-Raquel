@@ -1,0 +1,39 @@
+.botao{
+    width:100px;
+    height:50px;
+    text-align:center;
+    margin: 15px;
+    font:bold 13px verdana, arial, tahoma, sans-serif;
+}
+.cont{
+    width:500px;
+    height:80px;
+    text-align:justify;
+    font:lighter 20px verdana, arial, tahoma, sans-serif;
+}
+.efeito{
+    border-radius:10px;
+    background: pink;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/*.botao{
+    width:100px;
+    height:50px;
+    text-align:center;
+    margin: 15px;
+    font:bold 13px verdana, arial, tahoma, sans-serif;
+    border-radius:10px;
+    background: pink;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.cont{
+    width:500px;
+    height:80px;
+    text-align:justify;
+    font:lighter 20px verdana, arial, tahoma, sans-serif;
+    border-radius:10px;
+    background: pink;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}*/
